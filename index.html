@@ -1,0 +1,47 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réplica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="conteiner">
+        <h1>Editar Informações</h1>
+        <form action="post">
+            <div class="formulario">
+                <label for="id">ID do Usuário</label>
+                <input type="number" name="ID" id="ID" placeholder="Digite seu ID">
+            </div>
+            <div class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            </div>
+            <div class="formulario">
+                <label for="telefone">Telefone</label>
+                <input type="number" name="telefone" id="telefone" placeholder="Digite seu telefone">
+            </div>
+            Rogerio
+            <div class="formulario">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email">
+            </div>
+            <div class="formulario">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+            </div>
+            <div class="formulario">
+                <label for="senha">Confirmar senha</label>
+                <input type="password" name="confirmar-senha" id="confirmar-senha" placeholder="Confirme sua senha">
+            </div>
+            <div>
+            <label id="p-perfil" for="foto"><p>Foto de Perfil</p></label>
+            <input type="file" name="foto" id="foto" accept="image/*">
+            </div>
+            <button id="botao" type="button" value="submit">Salvar</button>
+
+            <script src="script.js"></script>
+        </form>
+    </div>
+</body>
+</html>
